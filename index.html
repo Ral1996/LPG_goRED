@@ -509,7 +509,7 @@
               <figure>
                 <img src="img/portfolio/app1.jpg" class="img-fluid" alt="">
                 <a href="img/portfolio/app1.jpg" data-lightbox="portfolio" data-title="App de Zona Horaria" class="link-preview" title="Visualizar"><i class="ion ion-eye"></i></a>
-                <a href="#" class="link-details" title="Más detalles"><i class="ion ion-android-open"></i></a>
+                <a data-toggle="modal" data-target="#exampleModalZone" class="link-details" title="Más detalles"><i class="ion ion-android-open"></i></a>
               </figure>
 
               <div class="portfolio-info">
@@ -639,6 +639,21 @@
             </div>
           </div>
 
+          <div class="col-lg-4 col-md-6 portfolio-item filter-landing wow fadeInUp" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="img/landingPage1.png" class="img-fluid" alt="">
+                <a href="img/landingPage1.png" class="link-preview" data-lightbox="portfolio" data-title="LandingPage - Patterns" title="Visualizar"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="Mas detalles"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="#">LandingPage - Patterns</a></h4>
+                <p>LandingPage</p>
+              </div>
+            </div>
+          </div>
+
         </div>
 
       </div>
@@ -658,8 +673,8 @@
 
           <div class="testimonial-item">
             <img src="img/testimonial-1.jpg" class="testimonial-img" alt="">
-            <h3>Saul Goodman</h3>
-            <h4>Ceo &amp; Founder</h4>
+            <h3>Lic. Rosario Fuentes</h3>
+            <h4>CEO &amp; Fundador Delicious Break</h4>
             <p>
               <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
               Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
@@ -783,7 +798,7 @@
 
           <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
             <div class="member">
-              <img src="img/team-4.jpg" class="img-fluid" alt="">
+              <img src="img/loris.jpeg" class="img-fluid" alt="">
               <div class="member-info">
                 <div class="member-info-content">
                   <h4>Loris Orellana</h4>
@@ -975,7 +990,32 @@
     </div>
   </footer><!-- #footer -->
 
-  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <!--
+    ######################### CARGAMOS LOS MODALES PARA LOS PROYECTOS  #################################
+  -->
+  <!-- Modal - Más Información AppZone -->
+  <div class="modal fade" id="exampleModalZone" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-outline-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Top page -->
+  <a href="#" class="back-to-top" style="background-color: #84141f;"><i class="fa fa-chevron-up" style="color: white;"></i></a>
 
   <!-- JavaScript Libraries -->
   <script src="lib/jquery/jquery.min.js"></script>
